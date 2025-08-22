@@ -3,10 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pruebas - Formulario</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>Pruebas - Ingreso de Sesión</title>
   </head>
   <body>
-    <h1>Hola, desde la rama 1.</h1>
-    <h1>Hola, desde la rama 2.</h1>
+    <div id="contenedor-titulo">
+      <h1>Ingreso de Sesión</h1>
+    </div>
+    <div id="contenedor-centrado">
+      <div id="contenedor-form">
+        <form action="index.html">
+          <div class="campo" id="campo-usuario">
+            <label for="usuario">Usuario</label>
+            <input type="text" name="usuario" id="usuario" />
+          </div>
+          <div class="campo" id="campo-contrasenia">
+            <label for="contrasenia">Contraseña</label>
+            <input type="password" name="contrasenia" id="contrasenia" />
+          </div>
+          <div id="contenedor-boton">
+            <button type="submit">Registrarse</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
